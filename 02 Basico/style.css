@@ -1,11 +1,16 @@
-body {
-  color: seagreen;
+h1 {
+  background-color: #ddd;
+  width: 300px;
 }
 
-a {
-  color: inherit;
+span,
+a,
+strong {
+  border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-button {
-  color: inherit;
+div,
+h1,
+p {
+  border: 1px solid rgba(255, 0, 0, 0.5);
 }
