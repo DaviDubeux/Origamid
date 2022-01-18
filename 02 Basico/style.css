@@ -1,19 +1,10 @@
-#intro {
-  color: gold;
+h1 {
+  background: #000;
+  color: rgba(255, 255, 255, 0.5);
 }
 
-.codigo .design {
-  color: red;
-}
-
-.azul {
-  color: blue;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.grande {
-  font-size: 32px;
+a {
+  background-color: seagreen;
+  color: white;
+  font-size: 30px;
 }
