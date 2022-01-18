@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+span {
+  color: #febe01;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.produto {
+  background-color: #111;
+  color: #b2b2b2;
+  border-radius: 4px;
+  padding: 30px;
+  margin: 20px;
+}
+
+div h2 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 10px;
+  background-color: #febe01;
+  color: #332200;
+}
