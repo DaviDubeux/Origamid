@@ -1,0 +1,16 @@
+html {
+  font-family: Arial;
+}
+
+.cidades {
+  text-decoration: none;
+  color: green;
+}
+
+.hoje {
+  color: brown;
+}
+
+.amanha {
+  color: navy;
+}
