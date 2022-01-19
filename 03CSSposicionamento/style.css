@@ -4,16 +4,22 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.foto {
-  grid-column: 1 / -1;
+.titulo {
+  grid-column: 2;
+  text-align: right;
+}
+
+.preco {
+  place-self: start end;
 }
 
 .descricao {
-  grid-column: 1 / -1;
+  text-align: right;
 }
 
 .comprar {
-  grid-column: 1 / -1;
+  align-self: start;
+  text-align: center;
 }
 
 /* Estilos gerais */
