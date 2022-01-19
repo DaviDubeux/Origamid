@@ -1,22 +1,20 @@
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+div {
+  border: 2px solid #ccc;
+  margin-top: 40px;
+  padding: 20px 20px 40px 20px;
 }
 
-.grid {
-  margin-top: 60px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-}
-body {
-  margin: 0px;
-}
-
-h2 {
+span {
   background-color: #e7e7e7;
-  border: 1px solid #d7d7d7;
-  padding: 20px;
-  margin: 0px;
+  border: 2px solid #ccc;
+  padding: 10px;
+  position: relative;
+  top: -20px;
+}
+
+.fixo {
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
 }
