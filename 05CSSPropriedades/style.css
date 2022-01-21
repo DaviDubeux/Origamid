@@ -1,0 +1,14 @@
+/* Muda em valor absoluto */
+.px {
+  font-size: 32px;
+}
+
+/* Muda em relação ao elemento pai */
+.em {
+  font-size: 2em;
+}
+
+/* Muda em relação à raiz (o html) */
+.rem {
+  font-size: 2rem;
+}
