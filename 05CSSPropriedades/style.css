@@ -27,3 +27,31 @@ a:active {
   background: #fda;
   color: #731;
 } */
+
+.lista-1 li {
+  background: #ffa;
+}
+
+.lista-1 li:first-child {
+  background: #caf;
+}
+
+.lista-1 li:last-child {
+  background: #cfa;
+}
+
+.lista-1 li:nth-child(2) {
+  background-color: #cfa;
+}
+
+.lista-2 li:nth-child(4n) {
+  background-color: #cfa;
+}
+
+.lista-3 li:not(:first-child, :last-child, .terceiro) {
+  background: #caf;
+}
+
+h2:not(.contato) {
+  text-decoration: underline;
+}
