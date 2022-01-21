@@ -1,57 +1,38 @@
-a {
-  display: inline-block;
-  padding: 1rem 2rem;
+h1::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: #caf;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
   font-size: 1.5rem;
-  font-family: Arial;
-  text-decoration: none;
-  background: #caf;
-  color: #217;
+  display: flex;
+  align-items: center;
 }
 
-a:hover {
-  background: #adf;
-  color: #147;
+li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(#caf, #fff);
+  border: 2px solid #caf;
+  margin-right: 10px;
+  border-radius: 50%;
 }
 
-a:focus {
-  background: #cfa;
-  color: #371;
+p::first-line {
+  font-weight: bold;
 }
 
-a:active {
-  background: #ffa;
-  color: #761;
-}
-
-/* a:visited {
-  background: #fda;
-  color: #731;
-} */
-
-.lista-1 li {
-  background: #ffa;
-}
-
-.lista-1 li:first-child {
-  background: #caf;
-}
-
-.lista-1 li:last-child {
-  background: #cfa;
-}
-
-.lista-1 li:nth-child(2) {
-  background-color: #cfa;
-}
-
-.lista-2 li:nth-child(4n) {
-  background-color: #cfa;
-}
-
-.lista-3 li:not(:first-child, :last-child, .terceiro) {
-  background: #caf;
-}
-
-h2:not(.contato) {
-  text-decoration: underline;
+p::first-letter {
+  font-size: 2rem;
+  color: blue;
 }
