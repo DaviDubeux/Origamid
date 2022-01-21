@@ -2,11 +2,18 @@ body {
   margin: 20px;
 }
 
-ul,
-ol,
-dl,
-dd {
+ul {
   padding: 0px;
   margin: 0px;
   list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  background-color: #eee;
+  color: #000;
+  padding: 10px 20px;
+  display: block;
 }
