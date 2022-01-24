@@ -1,0 +1,204 @@
+/* * {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+} */
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+/* Reset */
+
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 1.25rem;
+}
+p {
+  font-size: 1.25rem;
+  max-width: 60ch;
+}
+a {
+  font-size: 1.5rem;
+}
+
+header {
+  display: grid;
+  gap: 2rem;
+}
+
+.logo {
+  place-self: center;
+}
+
+main {
+  margin: 3rem auto;
+}
+
+.primaria ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.primaria a {
+  display: block;
+  place-self: center;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  background-color: white;
+  border-radius: 4px;
+  border: 3px solid #f7f7f7;
+  font-size: 1.2rem;
+}
+
+.primaria a:hover {
+  border: 3px solid #e21;
+}
+
+main {
+  display: grid;
+  max-width: 1000px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info {
+  display: grid;
+  background-color: #fff;
+  place-items: center right;
+  gap: 1.25rem;
+  text-align: right;
+  padding: 4rem 2.5rem;
+  position: relative;
+}
+.info h1:before {
+  content: "";
+  display: block;
+  width: 3.75rem;
+  height: 0.25rem;
+  background-color: #e21;
+  position: absolute;
+  right: -1.875rem;
+  top: 1.5rem;
+}
+.info a {
+  background-color: #e21;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.info a:hover {
+  background-color: #990700;
+}
+.article1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .article1 {
+    grid-template-columns: 1fr;
+    padding-bottom: 2rem;
+    border-bottom: 4px solid #aaa;
+    gap: 2rem;
+    justify-items: center;
+  }
+  .info {
+    place-items: start;
+    text-align: start;
+  }
+  .info h1:before {
+    display: none;
+  }
+  .article1 img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .article2 {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .subtitulo {
+    text-align: center;
+  }
+}
+
+.article2 {
+  display: grid;
+}
+.article2 div {
+  display: grid;
+  height: minmax(300px 1fr);
+  place-items: center end;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.2);
+  background-image: url(../../05CSSPropriedades/bikcraft/img/onda.svg);
+}
+.article2 ul {
+  display: grid;
+  background-color: #fff;
+  padding: 2rem;
+}
+.article2 li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem 1rem;
+  padding: 2rem;
+}
+.article2 li:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+.article2 li:hover {
+  border-left: 0.25rem solid #e21;
+}
+.article2 p {
+  grid-column: 2;
+}
+
+footer {
+  display: grid;
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  place-content: center;
+  text-align: center;
+  padding: 2rem;
+}
