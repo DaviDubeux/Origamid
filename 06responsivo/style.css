@@ -3,12 +3,21 @@ img {
   display: block;
 }
 
-div {
+.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cover img {
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  max-width: 60ch;
 }
