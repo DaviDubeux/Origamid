@@ -1,0 +1,23 @@
+/* span {
+  display: inline-block;
+  background: #ddd;
+}
+
+span {
+  padding: 30px;
+  padding: 20px 40px;
+  padding: 40px 100px 200px 10px;
+  border: 10px solid black;
+  border-top: 20px solid blue;
+  border-width: 30px 60px;
+}
+ */
+
+body {
+  writing-mode: vertical-rl;
+}
+
+h1 {
+  margin-block-start: 30px; /* relativo ao modo de escrita */
+  margin-top: 30px; /* relativo à tela */
+}
